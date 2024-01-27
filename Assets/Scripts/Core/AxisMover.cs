@@ -69,11 +69,15 @@ namespace AhmadAllahham.Core
 
         private void OnMouseDown()
         {
+            Logger.Instance.LogInfo($"Moving {gameObject.name} from {transform.position}");
+
             _dragging = true;
         }
 
         private void OnMouseUp()
         {
+            Logger.Instance.LogInfo($"Moved {gameObject.name} to {transform.position}");
+
             _dragging = false;
         }
     }
