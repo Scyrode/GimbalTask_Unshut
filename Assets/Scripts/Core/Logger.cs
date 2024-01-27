@@ -2,13 +2,14 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 using System;
+using AhmadAllahham.Shared;
 
 /*
  * Logger class, adapted from dilmerv's Logger class
  * Original code: https://github.com/dilmerv/UnityMultiplayerPlayground/blob/master/Assets/Scripts/Core/Logger.cs
  * Date of Retreival: 26/01/2024
  */
-namespace AhmadAllahham.Shared
+namespace AhmadAllahham.Core
 {
     public class Logger : Singleton<Logger>
     {
